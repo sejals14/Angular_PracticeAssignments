@@ -1,0 +1,5 @@
+<div>
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" #inputTextRef />
+    <button (click)="sendData(inputTextRef.value)">Send to Parent</button>
+</div>

@@ -1,0 +1,7 @@
+<div>
+  <label for="textInput">Enter Text:</label>
+  <input type="text" id="textInput" (input)="updateLength($event)" />
+  <p>Length of the entered text: {{ enteredTextLength }}</p>
+</div>
+
+<router-outlet></router-outlet>
